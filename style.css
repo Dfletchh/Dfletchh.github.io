@@ -1,0 +1,215 @@
+/*****  NAVBAR  *****/
+#nav-bar {
+  background-color: #050505;
+  -moz-box-shadow:    0 1px 2px 0 gray;
+  -webkit-box-shadow: 0 1px 2px 0 gray;
+  box-shadow:         0 1px 2px 0 gray;
+}
+#nav-bar a {
+  color: #F5F5F5;
+  font-size: 20px;
+  font-weight: 600;
+}
+#nav-bar button {
+  background-color: #F5F5F5;
+  border: 1px solid black;
+}
+
+/*****  HERO  *****/
+#hero-section {
+  background-image: url("./img/nebula.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: clamp(100px, 10vh, 200px) 0;
+  -moz-box-shadow:    0 1px 3px 0 #4d828f;
+  -webkit-box-shadow: 0 1px 3px 0 #4d828f;
+  box-shadow:         0 1px 3px 0 #4d828f;
+}
+#profile-img {
+  margin: clamp(10px, 30vh, 25px) auto;
+  background-image: url("./img/SLS.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 200px;
+  border: 2px solid #E1DEE3;
+  height: clamp(100px, 30vh, 200px);
+  width: clamp(100px, 30vh, 200px);
+  -moz-box-shadow:    0 1px 3px 0 #E1DEE3;
+  -webkit-box-shadow: 0 1px 3px 0 #E1DEE3;
+  box-shadow:         0 1px 3px 0 #E1DEE3;
+}
+#hero-section h2 {
+  color: whitesmoke;
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  text-align: center;
+  position: relative;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+#hero-section h5 {
+  color: whitesmoke;
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  text-align: center;
+  position: relative;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px gray;
+  font-style: italic; 
+  letter-spacing: 1px;
+}
+
+/*****  ABOUT ME  *****/
+#mission-section {
+  color: #050505;
+  text-shadow: 1px 1px 2px gray;
+  background-color: #E1DEE3;
+  -moz-box-shadow:    0 1px 3px 0 #E1DEE3;
+  -webkit-box-shadow: 0 1px 3px 0 #E1DEE3;
+  box-shadow:         0 1px 3px 0 #E1DEE3;
+}
+#mission-section img {
+  position: relative;
+  height: 30vw;
+  width: auto;
+  border-radius: 4px;
+}
+#mission-section p {
+  font-size: clamp(1rem, 1.4vw, 2.2rem);
+  text-align: left;
+  text-shadow: none;
+}
+
+/*****  SKILLS  *****/
+#skills-section {
+  color: #F5F5F5;
+  background-color: #4d828f;
+  -moz-box-shadow:    0 1px 3px 0 #4d828f;
+  -webkit-box-shadow: 0 1px 3px 0 #4d828f;
+  box-shadow:         0 1px 3px 0 #4d828f;
+}
+#skills-section h3 {
+  text-shadow: 1px 1px 1px #E1DEE3;
+}
+#skills-section img {
+  height: 15vh;
+  width: auto;
+  padding-top: 20px;
+  filter: grayscale(20%);
+}
+
+#skills-section p {
+  padding-top: 10px;
+  color: whitesmoke;
+  font-size: clamp(1rem, 1.2vw, 1.8rem);
+  text-align: middle;
+}
+
+/*****  INSPIRATION  *****/
+#inspiration-section {
+  color: #050505;
+  text-shadow: 1px 1px 2px gray;
+  font-size: clamp(1.5rem, 2.2vw, 4rem);
+  background-color: #E1DEE3;
+  -moz-box-shadow:    0 1px 3px 0 #E1DEE3;
+  -webkit-box-shadow: 0 1px 3px 0 #E1DEE3;
+  box-shadow:         0 1px 3px 0 #E1DEE3;
+}
+#inspiration-section .carousel-item img {
+  border-radius: 4px;
+  position: relative;
+  height: 600px;
+  width: 100vh;
+  object-fit: cover;
+/*   filter: blur(1px) grayscale(80%); */
+}
+#inspiration-section h4 {
+  font-size: clamp(1.2rem, 2.2vh, 2rem);
+  font-weight: 500;
+  text-shadow: 1px 1px 3px #000000bb;
+}
+#inspiration-section p {
+  font-size: clamp(.5rem, 1.1vw, 1.3rem);
+  font-weight: 400;
+  text-shadow: 1px 1px 3px #000000bb;
+}
+
+/*****  CONTACT  *****/
+#contact-section {
+  color: #F5F5F5;
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  text-shadow: 1px 1px 1px #E1DEE3;
+  background-color: #4d828f;
+  -moz-box-shadow:    0 1px 3px 0 #4d828f;
+  -webkit-box-shadow: 0 1px 3px 0 #4d828f;
+  box-shadow:         0 1px 3px 0 #4d828f;
+}
+#contact-section i {
+  color: #F5F5F5;
+  font-size: 40px;
+  transition: background-color .5s;
+}
+#contact-section i:hover {
+  opacity: .6;
+  color: #050505;
+}
+#contact-section btn {
+  opacity: .5;
+  color: #050505;
+}
+
+/*****  FOOTER  *****/
+#footer-section {
+  text-align: center;
+  padding: 10px 3px;
+  background-color:#050505;
+  color: #F5F5F5;
+  font-size: clamp(1rem, 1vw, 1.8rem);
+  font-weight: 700;
+}
+
+/**** Terminal Replica ****/
+.terminal {
+  max-width: max-content;
+  position: relative;
+  align-items: center;
+/*   top: 25%; */
+/*   left: 50%; */
+/*   transform: translate(-50%, -50%); */
+  background-color: #2c3e50; /* MacOS window background color */
+  color: #fff;
+  font-family: 'Menlo'; /* MacOS terminal font */
+  padding: 20px;
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0px 0px 10px #888; /* Add a subtle drop shadow */
+}
+.terminal-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #fff;
+  position: relative; /* Add position relative to the terminal-header */
+}
+.prompt {
+  font-weight: bold;
+  margin-right: 8px;
+}
+.terminal-line {
+  padding: 8px 0; /* Add some padding to the lines */
+}
+.close-btn {
+  position: absolute; /* Add position absolute to the close-btn */
+  top: 0;
+  right: 3%;
+  padding-top: 0;
+  padding-bottom: 6px; /* Add some padding to the close-btn */
+  font-size: 20px; /* Increase font size */
+  cursor: pointer; /* Add cursor pointer to the close-btn */
+  color: slategray;
+}
+
