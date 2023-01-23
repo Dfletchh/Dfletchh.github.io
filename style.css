@@ -67,11 +67,13 @@
 /*****  ABOUT ME  *****/
 #mission-section {
   color: #050505;
-  text-shadow: 1px 1px 2px gray;
   background-color: #E1DEE3;
   -moz-box-shadow:    0 1px 3px 0 #E1DEE3;
   -webkit-box-shadow: 0 1px 3px 0 #E1DEE3;
   box-shadow:         0 1px 3px 0 #E1DEE3;
+}
+#mission-section h3 {
+  text-shadow: 1px 1px 2px gray;
 }
 #mission-section img {
   position: relative;
@@ -133,7 +135,6 @@
     max-height: 600px;
     overflow: hidden;
 }
-
 .carousel-inner img {
     height: 100%;
     width: auto;
