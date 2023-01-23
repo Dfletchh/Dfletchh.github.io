@@ -1,8 +1,9 @@
 #headers {
   font-family: 'Open Sans', sans-serif;
-  font-size: 3vw; /* 4% of the viewport width */
-  font-weight: bold; /* adjust as necessary */
-  text-align: center; /* adjust as necessary */
+  font-size: clamp(25px, 5vw, 45px);
+  padding-bottom: 9px;
+  font-weight: bold;
+  text-align: center; 
   margin: 0; /* remove default margin */
 }
 
