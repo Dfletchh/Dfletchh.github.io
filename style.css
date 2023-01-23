@@ -134,7 +134,6 @@
 }
 .carousel-inner {
     height: auto;
-    max-height: 600px;
     overflow: hidden;
 }
 .carousel-inner img {
