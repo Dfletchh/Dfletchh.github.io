@@ -1,3 +1,11 @@
+section #headers {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vw; /* 4% of the viewport width */
+  font-weight: bold; /* adjust as necessary */
+  text-align: center; /* adjust as necessary */
+  margin: 0; /* remove default margin */
+}
+
 /*****  NAVBAR  *****/
 #nav-bar {
   background-color: #050505;
