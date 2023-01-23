@@ -128,6 +128,18 @@
   object-fit: cover;
 /*   filter: blur(1px) grayscale(80%); */
 }
+.carousel-inner {
+    height: auto;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
 #inspiration-section h4 {
   font-size: clamp(1.2rem, 2.2vh, 2rem);
   font-weight: 500;
