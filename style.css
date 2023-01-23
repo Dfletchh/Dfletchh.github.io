@@ -1,6 +1,6 @@
 #headers {
   font-family: 'Open Sans', sans-serif;
-  font-size: clamp(35px, 5vw, 50px);
+  font-size: clamp(35px, 5vw, 45px);
   padding-bottom: 9px;
   font-weight: bold;
   text-align: center; 
@@ -10,9 +10,9 @@
 /*****  NAVBAR  *****/
 #nav-bar {
   background-color: #050505;
-  -moz-box-shadow:    0 1px 2px 0 gray;
-  -webkit-box-shadow: 0 1px 2px 0 gray;
-  box-shadow:         0 1px 2px 0 gray;
+  -moz-box-shadow:    0 1px 2px 0 #2c3e50;
+  -webkit-box-shadow: 0 1px 2px 0 #2c3e50;
+  box-shadow:         0 1px 2px 0 #2c3e50;
 }
 #nav-bar a {
   color: #F5F5F5;
@@ -85,7 +85,7 @@
   text-shadow: 1px 1px 2px gray;
 }
 #about-section p {
-  font-size: clamp(1rem, 1.4vw, 2.2rem);
+  font-size: clamp(1rem, 1.4vw, 2rem);
   text-align: left;
   text-shadow: none;
 }
@@ -144,13 +144,18 @@
     object-fit: cover;
     opacity: 0.9;
 }
+#inspiration-section .carousel-caption {
+  max-width: 600px;
+  position: absolute;
+  margin: auto;
+}
 #inspiration-section h4 {
-  font-size: clamp(1.2rem, 2.2vh, 2rem);
+  font-size: clamp(1.2rem, 2.2vw, 2rem);
   font-weight: 500;
   text-shadow: 1px 1px 3px #000000bb;
 }
 #inspiration-section p {
-  font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+  font-size: clamp(1.2rem, 1.8vw, 1.5rem);
   font-weight: 400;
   text-shadow: 1px 1px 3px #000000bb;
 }
