@@ -145,6 +145,15 @@
     object-fit: cover;
     opacity: 0.9;
 }
+#inspiration-section button {
+  background-color: #E1DEE3;
+  padding: 1px;
+  width: 40px;
+  height: 5px;
+  margin: 5px;
+  margin-bottom: 12px;
+  border-radius: 20px;
+}
 #inspiration-section .carousel-caption {
   max-width: 600px;
   position: absolute;
