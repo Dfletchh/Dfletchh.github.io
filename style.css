@@ -63,7 +63,7 @@
   letter-spacing: 1px;
 }
 #hero-section h5 {
-  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
   font-style: italic; 
   letter-spacing: 1px;
   text-align: center;
